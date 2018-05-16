@@ -1,0 +1,239 @@
+<style>
+
+.box{                                                                              
+ transition: box-shadow .3s;                                                       
+ }                                                                                  
+.box:hover {                                                                       
+  box-shadow: 0 30px 75px -5px rgba(50,50,93,.3), 0 25px 40px -20px rgba(0,0,0,.1);
+  /*box-shadow: 0 0 15px rgba(11, 0, 0, 1); */                                     
+ }                                                                                  
+
+ .view-img{
+   height:100%;
+   width:100%;
+   object-fit:cover;
+ }
+
+.kusner{
+  width:100%;
+  background: #2C3A47;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2C3A47, );  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2C3A47,); /* W3C, IE 10+/ Edge, Firefttox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body{
+    font-family: system-ui;        
+  }
+
+p.pre {
+    height: auto;
+    overflow: auto;
+    overflow-y: none;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: normal;
+}
+  .scrollspy-example {
+     position: sticky;
+     height: 700px;
+     overflow: auto;
+  }
+
+.carousel-caption {
+padding-bottom:0!important;
+}
+.img-txt{
+    font-family:system-ui;
+    color:#22384F;
+}
+
+.banner{
+width:100%;
+object-fit:cover;
+background-image: ;
+}
+
+@media (min-width: 44px) {  
+.img-txt {
+  font-size:.5rem;
+  padding-bottom:-5px;
+  padding-left:30px;
+  margin-right:-10px;
+} /*1rem = 16px*/
+.banner h1 {
+  height:200px;padding-top:200px;
+}
+} 
+
+@media (min-width: 244px) {  
+.img-txt {
+  font-size:.5rem;
+  padding-bottom:-5px;
+  padding-left:30px;
+  margin-right:-10px;
+} /*1rem = 16px*/
+.banner h1 {
+  height:250px;padding-top:200px;
+}
+} 
+
+@media (min-width: 320px) {  
+.img-txt {
+  font-size:.8rem;
+  margin-bottom:-3px;
+  padding-left:30px;
+  margin-right:-50px;
+} /*1rem = 16px*/
+}
+
+@media (min-width: 360px) {  
+.img-txt {
+  font-size:1rem;
+  margin-bottom:-3px;
+  padding-left:30px;
+  margin-right:-50px;
+} /*1rem = 16px*/
+} 
+
+@media (min-width: 375px) {  
+.img-txt {
+  font-size:1rem;
+  margin-bottom:0px;
+  padding-left:40px;
+  margin-right:-30px;
+} /*1rem = 16px*/
+}
+
+@media (min-width: 411px) {  
+.img-txt {
+  font-size:1rem;
+  padding-bottom:0px;
+  padding-left:50px;
+  margin-right:-10px;
+} /*1rem = 16px*/
+}
+
+@media (min-width: 414px) {  
+.img-txt {
+  font-size:1rem;
+  padding-bottom:0px;
+  padding-left:50px;
+  margin-right:-10px;
+} /*1rem = 16px*/
+}
+
+
+@media (min-width: 412px) {  
+.img-txt {
+  font-size:1rem;
+  padding-bottom:10px;
+  padding-left:50px;
+  margin-right:-10px;
+} /*1rem = 16px*/
+} 
+
+@media (min-width: 414px) {  
+.img-txt {
+  font-size:1rem;
+  padding-bottom:3px;
+  padding-left:50px;
+  margin-right:-10px;
+} /*1rem = 16px*/
+} 
+
+@media (min-width: 544px) {  
+.img-txt {
+  font-size:1.3rem;
+  padding-bottom:15px;
+  padding-left:50px;
+  margin-right:-10px;
+} /*1rem = 16px*/
+.banner h1 {
+  height:300px;padding-top:230px;
+}
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+.img-txt{
+  font-size:1.7rem;
+  padding-bottom:27px;
+  padding-left:120px;
+  margin-right:-50px;
+} /*1rem = 16px*/
+.banner h1 {
+  height:350px;padding-top:250px;
+}
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+.img-txt {
+  font-size:1.5rem;
+  padding-bottom:75px;
+  padding-left:100px;
+  margin-right:-100px;
+
+} /*1rem = 16px*/
+.banner h1 {
+  height:350px;padding-top:250px;
+}
+}
+ @media (min-width: 1024px) {  
+.img-txt {
+  font-size:2rem;
+  padding-bottom:55px;
+  padding-left:150px;
+  margin-right:-50px;
+}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+.img-txt {
+  font-size:2rem;
+  padding-bottom:100px;
+  padding-left:150px;
+  margin-right:-150px;
+
+} 
+
+.banner h1 {
+  height:400px;padding-top:250px;
+}
+}
+
+@media (min-width: 1366px) {  
+.img-txt {
+  font-size:1.8rem;
+  padding-bottom:120px;
+  padding-left:250px;
+  margin-right:-100px;
+  }    
+  .banner {
+  height:100px;padding-top:250px;
+  width:100%;
+}
+}
+
+@media (min-width: 1920px) {  
+.img-txt {
+  font-size:2.4rem;
+  padding-bottom:160px;
+  padding-left:380px;
+  margin-right:-100px;
+} /*1rem = 16px*/    
+.banner h1 {
+  height:550px;padding-top:250px;
+}
+}
+
+.komen{
+  width:100%;
+  align:center; 
+  margin-top:20px;
+  transition:.2s ease-in;
+}
+
+.komen:hover{
+  background:#f9f9f9;
+}
